@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Silkshot Guide & Browser Wiki for Hollow Knight: Silksong</title>
+  <meta name="description" content="Play Silksong's secret railgun in your browser. Find the Ruined Tool, craft the best Silkshot, and share your highest damage combo—no download, no paywall.">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="canonical" href="https://silkshot.online" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://silkshot.online" />
+  <meta property="og:title" content="Silkshot Guide & Browser Wiki for Hollow Knight: Silksong" />
+  <meta property="og:description" content="Play Silksong's secret railgun in your browser. Find the Ruined Tool, craft the best Silkshot, and share your highest damage combo—no download, no paywall." />
+  <meta property="og:image" content="https://silkshot.online/images/silkshot-splash-800.webp" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- Plausible -->
+  <script defer data-domain="silkshot.online" src="https://plausible.io/js/script.js"></script>
+
+  <!-- Google Tag (GTAG) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-KRSM93TDXZ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-KRSM93TDXZ', { anonymize_ip: true });
+  </script>
+
+  <style>
+    :root{--bg:#0d1117;--text:#c9d1d9;--link:#58a6ff;--accent:#f7b733}
+    body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
+    a{color:var(--link);text-decoration:none}
+    h1{font-size:2rem;margin:0 0 .5em}
+    table{width:100%;border-collapse:collapse;margin:1.5rem 0}
+    th,td{padding:.75rem;border:1px solid #30363d;text-align:left}
+    th{background:#161b22}
+    iframe{width:100%;aspect-ratio:16/9;border:0}
+    .btn{display:inline-flex;align-items:center;gap:.5rem;padding:.5rem 1rem;background:#21262d;border:1px solid #30363d;border-radius:6px;cursor:pointer}
+    .btn:hover{background:#30363d}
+    .prose{max-width:65ch}
+    .container{max-width:1100px;margin:auto;padding:2rem 1rem}
+    .domain{font-size:.875rem;color:var(--accent);letter-spacing:.05em}
+    footer{margin-top:3rem;padding:2rem 0;border-top:1px solid #30363d;font-size:.875rem;display:flex;flex-wrap:wrap;justify-content:space-between}
+    @media (max-width:600px){footer{flex-direction:column;gap:1rem}}
+    .copied{color:var(--accent);font-size:.75rem;margin-left:.5rem}
+  </style>
+</head>
+<body>
+  <div class="domain" style="position:absolute;top:1rem;left:1rem;">silkshot.online</div>
+
+  <div class="container" style="margin-top:3rem">
+    <h1>Instant Railgun Forge for Silksong</h1>
+
+    <!-- 首屏即刻 iframe -->
+    <iframe src="https://hollowknight.wiki/w/Hollow_Knight_Wiki" title="Hollow Knight Wiki" loading="eager"></iframe>
+
+    <div class="prose">
+      <p>Silksong’s forgotten Weaver-weapon lands in your browser. Grab the Ruined Tool, choose one of three crafters, and forge the Silkshot that fits your style: rapid triple-burst, high-ammo single blast, or a railgun that freezes Hornet mid-air. Jump in, test the recoil, and share your highest damage combo—no download, no paywall.</p>
+    </div>
+
+    <!-- 攻略表格 -->
+    <h2>Silkshot Variants Compared</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Variant</th>
+          <th>Crafter Location</th>
+          <th>Damage</th>
+          <th>Ammo</th>
+          <th>Special Effect</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Silkshot I</strong></td>
+          <td>Deep Docks – Forge Daughter</td>
+          <td>1×40</td>
+          <td>8</td>
+          <td>Single shot, almost no hang-time</td>
+        </tr>
+        <tr>
+          <td><strong>Silkshot II</strong></td>
+          <td>Underworks – Twelfth Architect</td>
+          <td>3×25</td>
+          <td>6</td>
+          <td>Triple spread, heavy knockback</td>
+        </tr>
+        <tr>
+          <td><strong>Silkshot III</strong></td>
+          <td>Mount Fay – DIY bench</td>
+          <td>1×120 Pierce</td>
+          <td>6</td>
+          <td>Mid-air freeze ~0.5 s</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- 社交分享（无弹窗） -->
+    <h2>Share This Page</h2>
+    <div>
+      <button class="btn" onclick="window.open('https://twitter.com/intent/tweet?text='+encodeURIComponent(document.title)+'&url='+encodeURIComponent(location.href),'_blank','noopener')">Tweet</button>
+      <button class="btn" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),'_blank','noopener')">Facebook</button>
+      <button class="btn" onclick="navigator.clipboard.writeText(location.href);document.getElementById('copyok').style.display='inline'">Copy Link</button>
+      <span id="copyok" class="copied" style="display:none;">Copied!</span>
+    </div>
+
+    <!-- 页脚 -->
+    <footer>
+      <div>© 2025 silkshot.online — Not affiliated with Team Cherry</div>
+      <div>
+        <a href="#privacy">Privacy</a> · <a href="#about">About</a>
+      </div>
+    </footer>
+
+    <!-- 简易隐私段落 -->
+    <section id="privacy" class="prose" style="margin-top:3rem">
+      <h3>Privacy Policy</h3>
+      <p>We collect zero personal data. No cookies, no trackers. Anonymous fun only.</p>
+    </section>
+    <section id="about" class="prose">
+      <h3>About</h3>
+      <p>An unofficial fan page dedicated to Hollow Knight: Silksong's Silkshot tool. All game assets belong to Team Cherry.</p>
+    </section>
+  </div>
+</body>
+</html>
