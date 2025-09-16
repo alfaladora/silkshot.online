@@ -1,35 +1,82 @@
-# silkshot.online – Instant Railgun Forge for Silksong
+# Silkshot Forge – Instant Browser Wiki for Hollow Knight: Silksong  
+&gt; Hollow Knight Silksong, Silksong railgun, Silkshot variants, Silksong damage table, Silksong wiki, Silksong guide, Silksong browser game, Silksong fan site, Team Cherry Silksong, Silkshot crafter locations, Silksong tips, Silksong secrets, Silksong combo, Silksong no download, Silksong free
 
-**Live**: https://silkshot.online  
-**Tech**: Single static HTML (31 KB) – no build, no backend.
+---
 
-## 1. 一键部署（任意静态托管）
-1. 下载 `index.html` + 可选 `/images/*.webp`
-2. 上传到：
-   - **Cloudflare Pages**（推荐 – 自动 HTTPS）
-   - **GitHub Pages** / **Netlify** / **Vercel Static**
-3. 绑定域名 → 强制 HTTPS → 完成
+## What is this?
 
-## 2. 合规要点
-| 维度 | 状态 |
-|---|---|
-| 版权 | 仅嵌入官方 Wiki + 注明「Not affiliated」 |
-| 隐私 | 无 Cookie、无表单、追踪代码已 `anonymize_ip` |
-| 弹窗 | 0 第三方广告/弹窗，分享按钮为纯 `window.open` |
-| 内容 | 全部原创，无抄袭官方文案 |
+A **single-file HTML page** that packs the entire `silkshot.online` experience—open it anywhere to preview Hollow Knight: Silksong’s hidden railgun (the Silkshot) without installs, accounts, or paywalls.  
+Perfect for speed-runners, lore hunters, and anyone starving for Silksong news.
 
-## 3. 统计代码
-- **Plausible**: `data-domain="silkshot.online"`
-- **Google Analytics**: `GTAG G-KRSM93TDXZ`（IP 匿名化）
+Features:
 
-## 4. 更新日志
-| 日期 | 说明 |
-|---|---|
-| 2025-09-15 | 初版：单文件、无评论、合规、统计集成 |
+* Side-by-side comparison of **Silkshot I, II & III** (damage, ammo, special perks)  
+* Embedded Hollow Knight Wiki iframe for instant lore dives  
+* One-click share buttons (Twitter, Facebook, copy-link) to flex your highest Silksong damage combo  
+* Zero cookies, zero trackers (analytics snippets are optional)  
 
-## 5. 常见问题
-**Q: 需要 Cookie 横幅吗？**  
-A: 本页无功能性 Cookie，统计均为匿名，欧盟隐性同意模式即可。
+---
 
-**Q: 能否删除统计？**  
-A: 直接删掉 `&lt;head&gt;` 内两段 `&lt;script&gt;` 即可零追踪。
+## Host in 30 seconds (Silksong-ready URLs)
+
+1. Fork or clone this repo  
+2. Enable **GitHub Pages** (`Settings → Pages → Source: main branch`)  
+3. Your own Silksong mirror is live at `https://your-username.github.io/your-repo-name`
+
+Works on Netlify, Vercel, Cloudflare Pages, Surge, or even offline—just double-click `index.html`.
+
+---
+
+## Customise for your Silksong community
+
+Open `index.html`, hit `Ctrl-F`, edit, save, push.
+
+| Element | Search for |
+|---------|------------|
+| Colour palette | `:root` block |
+| Meta title / OG / Twitter card | `&lt;title&gt;` & `og:` tags |
+| Silksong weapon stats | `&lt;th&gt;Variant&lt;/th&gt;` table |
+| Analytics (Plausible + GA4) | `Plausible` & `GTAG` comments—delete for 100 % privacy |
+| Footer disclaimer | `&lt;footer&gt;` & `#privacy / #about` |
+
+No build tools, no npm, no SASS—pure vanilla HTML/CSS/JS.
+
+---
+
+## Privacy & Silksong fans’ peace of mind
+
+* No cookies, no local-storage fingerprinting  
+* No personal data collected  
+* Analytics scripts are **opt-in**—strip them out for a completely tracker-free Silksong hub
+
+---
+
+## License & legal
+
+Code (`index.html`) – **The Unlicense** (public domain).  
+Hollow Knight, Silksong, Silkshot, Hornet, Team Cherry logos/names are © Team Cherry.  
+This is an **unofficial fan project** and is not affiliated with or endorsed by Team Cherry.
+
+---
+
+## Contributing (Silksong hive-mind welcome)
+
+* Open issues for new Silksong mechanics or data corrections  
+* Submit PRs—please keep everything inside **one self-contained HTML file** so anyone can copy-paste it into any static host  
+* Tag pull requests with `silksong-data` or `ui-polish` for faster review
+
+---
+
+## Quick Silksong links
+
+| Link | Purpose |
+|------|---------|
+| [Live demo](https://silkshot.online) | Current Silksong railgun build |
+| [Issues](https://github.com/YOUR-USERNAME/YOUR-REPO/issues) | Report wrong damage numbers, request new Silksong variants |
+| [Discussions](https://github.com/YOUR-USERNAME/YOUR-REPO/discussions) | Share highest Silkshot combo clips, theory-craft Silksong builds |
+
+---
+
+**Keywords for search engines:** Hollow Knight Silksong, Silksong railgun, Silkshot guide, Silksong browser wiki, Silksong damage table, Silksong crafter locations, Silksong secrets, Silksong free, Silksong no download, Team Cherry Silksong, Silkshot variants, Silksong fan project, Silksong combo, Silksong tips, Silksong news, Silksong gameplay, Silksong weapons, Silksong tools, Silksong online.
+
+Happy forging, little weaver—may your Silksong wait be short and your Silkshot crits be high! 🕸️
